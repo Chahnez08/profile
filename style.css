@@ -1,0 +1,82 @@
+body{
+  background-color: #EDEDF4;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  color: #F3752B;
+}
+h1, h2{
+  color: #F52F57;
+}
+a{
+  color: #A20021;
+  text-decoration: none;
+  padding: 5px;
+  font-size: large;
+}
+p{
+  padding: 20px;
+}
+ul{
+  list-style-type: none;
+}
+i{
+  font-size: 50px;
+}
+.btn-primary{
+  background-color: #A20021;
+  box-shadow: 2px 2px 3px rgb(203, 163, 163);
+  color: antiquewhite;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  transition: all 0.3 ease;
+  a{
+    display: inline-block;
+  }
+}
+.img-circle{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.container{
+  background-color: #ffecdf;
+  width: 50%;
+  text-align: center;
+  border:1px solid #F52F57;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 3px rgb(203, 163, 163);
+}
+.fa-brands:hover{
+  color: #F3752B;
+}
+.btn-primary:hover{
+  background-color: #F3752B;
+}
+/*responsive*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
