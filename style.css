@@ -11,6 +11,9 @@ h2, h3{
   color: #F52F57;
   text-decoration: underline;
 }
+h3 > i{
+  font-size:medium;
+}
 a{
   color: #A20021;
   text-decoration: none;
